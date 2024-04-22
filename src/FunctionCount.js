@@ -13,8 +13,8 @@ function FunctionCount() {
   return (
     <div>
     <h1>{counter}</h1>
-    <button className="btn btn-info mt-4" onClick={() => setCounter(counter +1)}>Increment with function</button>
-    <button className="btn btn-warning mt-4" onClick={() => setCounter(counter -1)}>Decrement with function</button>
+    <button className="btn btn-info mt-4" onClick={() => setCounter(counter +1)}>Increment w/ function</button>
+    <button className="btn btn-warning mt-4" onClick={() => setCounter(counter -1)}>Decrement w/ function</button>
       
     </div>
   )

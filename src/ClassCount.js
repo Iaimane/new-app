@@ -33,8 +33,8 @@ export class ClassCount extends Component {
     return (
       <div>
         <h1>{this.state.counter}</h1>
-          <button className="btn btn-success mt-4" onClick={this.incrementCounter}>Increment with class</button>
-          <button className="btn btn-danger mt-4" onClick={this.decrementCounter}>Decrement with class</button>
+          <button className="btn btn-success mt-4" onClick={this.incrementCounter}>Increment w/ class</button>
+          <button className="btn btn-danger mt-4" onClick={this.decrementCounter}>Decrement w/ class</button>
       </div>
     )
   }
